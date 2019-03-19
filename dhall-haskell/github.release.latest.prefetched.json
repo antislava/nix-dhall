@@ -1,0 +1,74 @@
+[
+  {
+    "nameCore": "dhall",
+    "platform": "x86_64-linux",
+    "urlsha": {
+      "sha256": "0x7q6v1y62fq6724kx1hcfp1fcqv3lbv33ji6jzfd5y316a31r77",
+      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.21.0/dhall-1.21.0-x86_64-linux.tar.bz2"
+    },
+    "version": "1.21.0"
+  },
+  {
+    "nameCore": "dhall",
+    "platform": "x86_64-windows",
+    "urlsha": {
+      "sha256": "003chzgkif1701lyns714fygamcldb87yzgjcdyysdyd42c9h3in",
+      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.21.0/dhall-1.21.0-x86_64-windows.zip"
+    },
+    "version": "1.21.0"
+  },
+  {
+    "nameCore": "dhall-bash",
+    "platform": "x86_64-linux",
+    "urlsha": {
+      "sha256": "0v8mygxl8ibnxh25lxq9qpp38nix3b2v387xm17nnjy02lr3jp74",
+      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.21.0/dhall-bash-1.0.19-x86_64-linux.tar.bz2"
+    },
+    "version": "1.0.19"
+  },
+  {
+    "nameCore": "dhall-bash",
+    "platform": "x86_64-windows",
+    "urlsha": {
+      "sha256": "0al42rczanpv3xcg9c6600i5aafg22qljklwsy7ypbycb12ih6zf",
+      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.21.0/dhall-bash-1.0.19-x86_64-windows.zip"
+    },
+    "version": "1.0.19"
+  },
+  {
+    "nameCore": "dhall-json",
+    "platform": "x86_64-linux",
+    "urlsha": {
+      "sha256": "1a8l594if7l7v2l4rcdsws8dflpb33mav7ym79cprp6n1c1s4xqr",
+      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.21.0/dhall-json-1.2.7-x86_64-linux.tar.bz2"
+    },
+    "version": "1.2.7"
+  },
+  {
+    "nameCore": "dhall-json",
+    "platform": "x86_64-windows",
+    "urlsha": {
+      "sha256": "166q5ffbb0v8gxpcg2hirmar35jfkpgwn0q7x6mdv21lr43cxzz5",
+      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.21.0/dhall-json-1.2.7-x86_64-windows.zip"
+    },
+    "version": "1.2.7"
+  },
+  {
+    "nameCore": "dhall-text",
+    "platform": "x86_64-linux",
+    "urlsha": {
+      "sha256": "0fisqhxy1s4f79rwp60avqdwqbklwj6sznfzx3pyaq6gn4p8wwnv",
+      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.21.0/dhall-text-1.0.16-x86_64-linux.tar.bz2"
+    },
+    "version": "1.0.16"
+  },
+  {
+    "nameCore": "dhall-text",
+    "platform": "x86_64-windows",
+    "urlsha": {
+      "sha256": "01vzp807ly8ajwh72zrlsgk6qpnmamg5308zazx5jaf4ahc1fxaa",
+      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.21.0/dhall-text-1.0.16-x86_64-windows.zip"
+    },
+    "version": "1.0.16"
+  }
+]
