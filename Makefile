@@ -7,7 +7,7 @@ shell-dev :
 	nix-shell -p jq shab
 
 .PHONY : shell-test
-shell-dev :
+shell-test :
 	nix-shell ./test-shell.nix
 
 $(DH_LATEST).json : $(DH_LATEST).sh
