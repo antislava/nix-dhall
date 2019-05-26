@@ -13,7 +13,7 @@ shell-test :
 $(DH_LATEST).json : $(DH_LATEST).sh
 	sh $< > $@
 
-$(DH_LATEST).prefetched.json : $(DH_LATEST).json $(DHALL)/release.nix
+$(DH_LATEST).prefetched.json : $(DH_LATEST).json $(DHALL)/prefetch-assets.nix
 	nix eval "(import $(DHALL)/prefetch-assets.nix)" --json | shab | jq -r > $@
 
 # OLD (but kept for the time being...)
