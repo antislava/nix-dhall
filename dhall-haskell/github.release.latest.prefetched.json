@@ -3,99 +3,45 @@
     "nameCore": "dhall",
     "platform": "x86_64-linux",
     "urlsha": {
-      "sha256": "04k6qfd83vjb380wj4nrn7l0gzh5v9d7l7mw5nzsy812nl1jfpfq",
-      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.24.0/dhall-1.24.0-x86_64-linux.tar.bz2"
+      "sha256": "12w2549mx4js7dz4qjcrps6nivj37ikg3daybl5fskshdyf44ia7",
+      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.25.0/dhall-1.25.0-x86_64-linux.tar.bz2"
     },
-    "version": "1.24.0"
-  },
-  {
-    "nameCore": "dhall",
-    "platform": "x86_64-windows",
-    "urlsha": {
-      "sha256": "17n25sy1vlhkr54k2kgd7maivdfrj2c7mrqnhfhhjxc7yy54x710",
-      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.24.0/dhall-1.24.0-x86_64-windows.zip"
-    },
-    "version": "1.24.0"
+    "version": "1.25.0"
   },
   {
     "nameCore": "dhall-bash",
     "platform": "x86_64-linux",
     "urlsha": {
-      "sha256": "1l17jdb1yv4kj2hnwzbyziy1m90mbyihrf40b0bbvfc15rfh6fl6",
-      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.24.0/dhall-bash-1.0.21-x86_64-linux.tar.bz2"
+      "sha256": "1849qacj6xk3ki8hyw3862jrabq2gp44sjay0r9iiygifzm51pk6",
+      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.25.0/dhall-bash-1.0.22-x86_64-linux.tar.bz2"
     },
-    "version": "1.0.21"
-  },
-  {
-    "nameCore": "dhall-bash",
-    "platform": "x86_64-windows",
-    "urlsha": {
-      "sha256": "00p6p5w6y8rj4f0cz7jnaq1bcs1kixpqczpm12ahbnf5c1bwrgnh",
-      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.24.0/dhall-bash-1.0.21-x86_64-windows.zip"
-    },
-    "version": "1.0.21"
+    "version": "1.0.22"
   },
   {
     "nameCore": "dhall-json",
     "platform": "x86_64-linux",
     "urlsha": {
-      "sha256": "1hh11yy7smk9dgp1ji7rm2q1ld4gqsdj0w0gpxrybs938h5pzxcm",
-      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.24.0/dhall-json-1.3.0-x86_64-linux.tar.bz2"
+      "sha256": "14apqq0dj3lmm8yccygf8bb27scxjfkjkmr8zgnwb98znr51gfwn",
+      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.25.0/dhall-json-1.4.0-x86_64-linux.tar.bz2"
     },
-    "version": "1.3.0"
-  },
-  {
-    "nameCore": "dhall-json",
-    "platform": "x86_64-windows",
-    "urlsha": {
-      "sha256": "0cni8ahigxbm4cisd937gwy0mq1j955cbb59b1kn8q9jphyzclxz",
-      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.24.0/dhall-json-1.3.0-x86_64-windows.zip"
-    },
-    "version": "1.3.0"
+    "version": "1.4.0"
   },
   {
     "nameCore": "dhall-lsp-server",
     "platform": "x86_64-linux",
     "urlsha": {
-      "sha256": "0aad7mmzf72xa3rhdldcpmn1n2sixjmdf36qaskhqnjy73jm7h8p",
-      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.24.0/dhall-lsp-server-0.1.0.1-x86_64-linux.tar.bz2"
+      "sha256": "0m85yvc8chjs3yzlzdniv1y4h0g92nqvqmv2v819x67gmciggyc4",
+      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.25.0/dhall-lsp-server-1.0.0-x86_64-linux.tar.bz2"
     },
-    "version": "0.1.0.1"
-  },
-  {
-    "nameCore": "dhall-lsp-server",
-    "platform": "x86_64-windows",
-    "urlsha": {
-      "sha256": "10hf0d844mgp2mczfqmx0zw5b3z5x7rgqj2j1rpayjh0b49q77a2",
-      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.24.0/dhall-lsp-server-0.1.0.1-x86_64-windows.zip"
-    },
-    "version": "0.1.0.1"
+    "version": "1.0.0"
   },
   {
     "nameCore": "dhall-nix",
     "platform": "x86_64-linux",
     "urlsha": {
-      "sha256": "1hrrmhkir7sbgnhnciw1vr2svql7h77ns9gmy34snq2fkks2apn8",
-      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.24.0/dhall-nix-1.1.7-x86_64-linux.tar.bz2"
+      "sha256": "0jpz70jmp52m1jgycc7100056dry20zkd6c7lhfpjpfvmpkgbg48",
+      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.25.0/dhall-nix-1.1.7-x86_64-linux.tar.bz2"
     },
     "version": "1.1.7"
-  },
-  {
-    "nameCore": "dhall-text",
-    "platform": "x86_64-linux",
-    "urlsha": {
-      "sha256": "1d3rdglc9r4iqx207vsm41ka96i7xpa47ffg5z2kbgylf65qrfsa",
-      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.24.0/dhall-text-1.0.18-x86_64-linux.tar.bz2"
-    },
-    "version": "1.0.18"
-  },
-  {
-    "nameCore": "dhall-text",
-    "platform": "x86_64-windows",
-    "urlsha": {
-      "sha256": "0cwn9bcksb5yyzjls2bvmg3sz2pgpm3gdqq522nv2rv0vbg8dqxc",
-      "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.24.0/dhall-text-1.0.18-x86_64-windows.zip"
-    },
-    "version": "1.0.18"
   }
 ]

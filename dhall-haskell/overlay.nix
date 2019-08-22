@@ -10,7 +10,6 @@ let
   execs = {
     dhall-bin      = [ "dhall" ];
     dhall-json-bin = [ "dhall-to-json" "json-to-dhall" "dhall-to-yaml" ];
-    dhall-text-bin = [ "dhall-to-text" ];
     dhall-bash-bin = [ "dhall-to-bash" ];
     dhall-nix-bin  = [ "dhall-to-nix" ];
   };

@@ -1,9 +1,8 @@
-with import <nixpkgs> { overlays = [ (import ./.) ] ;};
+with import <nixpkgs> { overlays = [ (import ./.).overlay ] ;};
 runCommand "dhall-haskell-all" rec {
   buildInputs = [
     dhall-bin
     dhall-json-bin
-    dhall-text-bin
     dhall-bash-bin
   ];
   # TODO: Possible to automate sourcing bash completions somehow?
