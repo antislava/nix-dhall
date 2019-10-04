@@ -4,6 +4,8 @@ runCommand "dhall-haskell-all" rec {
     dhall-bin
     dhall-json-bin
     dhall-bash-bin
+    dhall-nix-bin
+    dhall-lsp-server-bin
   ];
   # TODO: Possible to automate sourcing bash completions somehow?
   # https://github.com/NixOS/nixpkgs/issues/44434#issuecomment-410624170

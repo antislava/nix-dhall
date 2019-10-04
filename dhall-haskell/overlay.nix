@@ -9,9 +9,10 @@ let
   assetsLinux );
   execs = {
     dhall-bin      = [ "dhall" ];
-    dhall-json-bin = [ "dhall-to-json" "json-to-dhall" "dhall-to-yaml" ];
+    dhall-json-bin = [ "dhall-to-json" "json-to-dhall" "dhall-to-yaml" "yaml-to-dhall" ];
     dhall-bash-bin = [ "dhall-to-bash" ];
     dhall-nix-bin  = [ "dhall-to-nix" ];
+    dhall-lsp-server-bin  = [ "dhall-lsp-server" ];
   };
   installPhaseFunc = exs:
   ''
