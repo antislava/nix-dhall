@@ -1,4 +1,3 @@
-# with builtins;
 let
   release = with builtins; fromJSON (readFile ./github.release.latest.json);
   extractAsset = a:
@@ -19,7 +18,8 @@ let
 in
   # filter (a: a ? "nameCore") (map extractAsset release.assets)
   # Keeping only linux binaries (can be controlled by a input variable)
-  test =
+  # test = (
   builtins.filter (a: a.platform or "" == "x86_64-linux")
     (map extractAsset release.assets)
-  builtins.toFile "test" ( builtins.toJSON test )
+  # )
+  # builtins.toFile "test" ( builtins.toJSON test )
