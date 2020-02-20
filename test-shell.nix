@@ -3,6 +3,7 @@ runCommand "dhall-haskell-all" rec {
   buildInputs = [
     dhall-bin
     dhall-json-bin
+    dhall-yaml-bin
     dhall-bash-bin
     dhall-nix-bin
     dhall-lsp-server-bin
