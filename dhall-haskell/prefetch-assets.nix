@@ -17,7 +17,7 @@ let
   };
 in
   # filter (a: a ? "nameCore") (map extractAsset release.assets)
-  # Keeping only linux binaries (can be controlled by a input variable)
+  # Keeping only linux binaries (TODO control this by a nix function arg)
   # test = (
   builtins.filter (a: a.platform or "" == "x86_64-linux")
     (map extractAsset release.assets)

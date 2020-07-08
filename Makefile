@@ -16,6 +16,11 @@ $(DH_LATEST).json : $(DH_LATEST).sh
 $(DH_LATEST).prefetched.json : $(DH_LATEST).json $(DHALL)/prefetch-assets.nix
 	nix eval "(import $(DHALL)/prefetch-assets.nix)" --json | shab | jq -r > $@
 
+# .PHONY : $(DH_LATEST).print-asset-names
+$(DH_LATEST).print-asset-names :
+%.print-asset-names : %.json
+	jq .assets[].name < $<
+
 # OLD (but kept for the time being...)
 # Switched from jq (below) to nix eval for better consistency
 # $(SRC_URL)/%.github.release.linux.json : $(SRC_URL)/%.github.release.json

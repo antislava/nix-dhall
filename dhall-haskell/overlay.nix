@@ -3,7 +3,7 @@ with builtins;
 let
   # release = import ./release.nix;
   assetsAll = fromJSON (readFile ./github.release.latest.prefetched.json);
-  assetsLinux = filter (p: p.platform == "x86_64-linux") assetsAll;
+  assetsLinux = filter (p: p.platform or "" == "x86_64-linux") assetsAll;
   assetAttrs = listToAttrs ( map
   (i: {name = i.nameCore + "-bin"; value = {inherit (i) version urlsha;};})
   assetsLinux );
