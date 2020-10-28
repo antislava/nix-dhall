@@ -14,6 +14,8 @@ let
     dhall-yaml-bin = [ "yaml-to-dhall" "dhall-to-yaml-ng" ];
     dhall-bash-bin = [ "dhall-to-bash" ];
     dhall-nix-bin  = [ "dhall-to-nix" ];
+    dhall-nixpkgs-bin  = [ "dhall-to-nixpkgs" ];
+    dhall-docs-bin  = [ "dhall-docs" ];
     dhall-lsp-server-bin  = [ "dhall-lsp-server" ];
   };
   installPhaseFunc = exs:

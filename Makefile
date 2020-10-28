@@ -10,6 +10,10 @@ shell-dev :
 shell-test :
 	nix-shell ./test-shell.nix
 
+.PHONY : shell-test-pure
+shell-test-pure :
+	nix-shell ./test-shell.nix --pure
+
 $(DH_LATEST).json : $(DH_LATEST).sh
 	sh $< > $@
 
